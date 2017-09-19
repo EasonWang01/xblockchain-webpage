@@ -45,7 +45,9 @@
                     <div class="s-header__navbar-row-col">
                         <!-- Logo -->
                         <div class="s-header__logo">
-                            <div style="font-size: 5px; color: white">Distributed Blockchain System Team</div>
+                            <div style="font-size: 15px; color: white">
+                                <img style="width: 100px" src="./img/logo_black.png">xBlockchain
+                            </div>
                         </div>
                         <!-- End Logo -->
                     </div>
@@ -254,6 +256,8 @@
                 </div>
                 <div class="col-md-4 col-md-offset-1">
                     <p class="g-font-size-18--xs">We aim high at being focused on building Distribute Blockchain System for company</p>
+                    <p>我們是集合區塊鏈工程師、演算法專家、密碼學愛好者、商業發展顧問、數據分析師的團隊。希望將區塊鏈相關技術推廣至各個應用領域。
+                        </p>
                 </div>
             </div>
         </div>
@@ -272,191 +276,79 @@
             </div>
             <div class="row">
                 <div class="col-sm-6 col-sm-offset-3 col-xs-10 col-xs-offset-1">
-                    <form class="input-group">
                         <input type="email" class="form-control s-form-v1__input g-radius--left-50" name="email" placeholder="Enter your email">
                         <span class="input-group-btn">
-                                <button type="submit" class="s-btn s-btn-icon--md s-btn-icon--white-brd s-btn--white-brd g-radius--right-50"><i class="ti-arrow-right"></i></button>
+                                <button onclick="submitScbscribe()" class="s-btn s-btn-icon--md s-btn-icon--white-brd s-btn--white-brd g-radius--right-50"><i class="ti-arrow-right"></i></button>
                             </span>
-                    </form>
                 </div>
             </div>
         </div>
     </div>
+
     <!-- End Subscribe -->
 
     <!-- Portfolio Filter -->
     <div class="container g-padding-y-80--xs">
         <div class="g-text-center--xs g-margin-b-40--xs">
-            <h2 class="g-font-size-32--xs g-font-size-36--md">Projects</h2>
+            <h2 class="g-font-size-32--xs g-font-size-36--md">應用案例</h2>
         </div>
-        <div class="s-portfolio">
+        <div>
+            <div style="text-align: center">
+                <p>人力派遣</p>
+                <div class="solution_describe">
+                    1.電子化基本合約內容<br>
+                    2.以加密式電子簽名保障簽約方個人隱私<br>
+                    3.合約將以區塊鏈方式儲存於分散式節點，確保其不可篡改<br>
+                    4.後續合約執行將可自動化進行驗收與付款
+                </div>
+            </div>
+
+            <div style="text-align: center; margin-top: 50px">
+                <p>智慧醫療</p>
+                <div class="solution_describe">
+                    1.以雙層加密方式儲存每筆個人醫療數據<br>
+                    2.以去中心化的多節點儲存，提升個人隱私安全性<br>
+                    3.以區塊鏈加密做數據傳輸與使用，協助智慧醫療企業符合各國電子醫療法規（如：HIPAA)                    
+                </div>
+            </div>
+
+            <div style="text-align: center; margin-top: 50px">
+                <p>信用借貸</p>
+                <div class="solution_describe">
+                    1.將個人與企業信用資訊儲存於去中心化分散式節點，確保其不可篡改<br>
+                    2.以智能合約方式簽署借貸雙方借還款條件，並以區塊鏈方式儲存，提升安全性<br>
+                    3.後續還款與撥款流程自動化，結合區塊鏈與雙重認證，免除人工認證的複雜程序                                        
+                </div>
+            </div>
+
+            <div style="text-align: center; margin-top: 50px">
+                <p>數位授權</p>
+                <div class="solution_describe">
+                    1.將授權檔案以三層加密方式儲存至去中心化區塊鏈，免除中間平台方處理<br>
+                    2.授權過程以智能合約方式處理，確保其不可算改<br>
+                    3.檔案傳輸以P2P方式，確保檔案正確性且確保智慧財產權轉移                                                  
+                </div>
+            </div>
+        </div>
+        <!-- <div class="s-portfolio">
             <div id="js__filters-portfolio-gallery" class="s-portfolio__filter-v1 cbp-l-filters-text cbp-l-filters-center">
                 <div data-filter="*" class="s-portfolio__filter-v1-item cbp-filter-item cbp-filter-item-active">Show All</div>
                 <div data-filter=".graphic" class="s-portfolio__filter-v1-item cbp-filter-item">Graphic</div>
                 <div data-filter=".logos" class="s-portfolio__filter-v1-item cbp-filter-item">Logo</div>
                 <div data-filter=".motion" class="s-portfolio__filter-v1-item cbp-filter-item">Motion</div>
             </div>
-        </div>
+        </div> -->
     </div>
     <!-- End Portfolio Filter -->
 
     <!-- Portfolio Gallery -->
-    <div class="container g-margin-b-100--xs">
-        <div id="js__grid-portfolio-gallery" class="cbp">
-            <!-- Item -->
-            <div class="s-portfolio__item cbp-item logos motion">
-                <div class="s-portfolio__img-effect">
-                    <img src="img/970x647/05.jpg" alt="Portfolio Image">
-                </div>
-                <div class="s-portfolio__caption-hover--cc">
-                    <div class="g-margin-b-25--xs">
-                        <h4 class="g-font-size-18--xs g-color--white g-margin-b-5--xs">Portfolio Item</h4>
-                        <p class="g-color--white-opacity"></p>
-                    </div>
-                    <ul class="list-inline g-ul-li-lr-5--xs g-margin-b-0--xs">
-                        <li>
-                            <a href="img/970x647/05.jpg" class="cbp-lightbox s-icon s-icon--sm s-icon--white-bg g-radius--circle" data-title="Portfolio Item <br/> by KeenThemes Inc.">
-                                    <i class="ti-fullscreen"></i>
-                                </a>
-                        </li>
-                        <li>
-                            <a href="https://themeforest.net/item/metronic-responsive-admin-dashboard-template/4021469?ref=keenthemes" class="s-icon s-icon--sm s-icon s-icon--white-bg g-radius--circle">
-                                    <i class="ti-link"></i>
-                                </a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            <!-- Item -->
-            <div class="s-portfolio__item cbp-item graphic">
-                <div class="s-portfolio__img-effect">
-                    <img src="img/970x647/06.jpg" alt="Portfolio Image">
-                </div>
-                <div class="s-portfolio__caption-hover--cc">
-                    <div class="g-margin-b-25--xs">
-                        <h4 class="g-font-size-18--xs g-color--white g-margin-b-5--xs">Portfolio Item</h4>
-                        <p class="g-color--white-opacity"></p>
-                    </div>
-                    <ul class="list-inline g-ul-li-lr-5--xs g-margin-b-0--xs">
-                        <li>
-                            <a href="img/970x647/06.jpg" class="cbp-lightbox s-icon s-icon--sm s-icon--white-bg g-radius--circle" data-title="Portfolio Item <br/> by KeenThemes Inc.">
-                                    <i class="ti-fullscreen"></i>
-                                </a>
-                        </li>
-                        <li>
-                            <a href="https://themeforest.net/item/metronic-responsive-admin-dashboard-template/4021469?ref=keenthemes" class="s-icon s-icon--sm s-icon s-icon--white-bg g-radius--circle">
-                                    <i class="ti-link"></i>
-                                </a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            <!-- Item -->
-            <div class="s-portfolio__item cbp-item logos">
-                <div class="s-portfolio__img-effect">
-                    <img src="img/970x647/07.jpg" alt="Portfolio Image">
-                </div>
-                <div class="s-portfolio__caption-hover--cc">
-                    <div class="g-margin-b-25--xs">
-                        <h4 class="g-font-size-18--xs g-color--white g-margin-b-5--xs">Portfolio Item</h4>
-                        <p class="g-color--white-opacity"></p>
-                    </div>
-                    <ul class="list-inline g-ul-li-lr-5--xs g-margin-b-0--xs">
-                        <li>
-                            <a href="img/970x647/07.jpg" class="cbp-lightbox s-icon s-icon--sm s-icon--white-bg g-radius--circle" data-title="Portfolio Item <br/> by KeenThemes Inc.">
-                                    <i class="ti-fullscreen"></i>
-                                </a>
-                        </li>
-                        <li>
-                            <a href="https://themeforest.net/item/metronic-responsive-admin-dashboard-template/4021469?ref=keenthemes" class="s-icon s-icon--sm s-icon s-icon--white-bg g-radius--circle">
-                                    <i class="ti-link"></i>
-                                </a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            <!-- Item -->
-            <div class="s-portfolio__item cbp-item motion graphic">
-                <div class="s-portfolio__img-effect">
-                    <img src="img/970x647/08.jpg" alt="Portfolio Image">
-                </div>
-                <div class="s-portfolio__caption-hover--cc">
-                    <div class="g-margin-b-25--xs">
-                        <h4 class="g-font-size-18--xs g-color--white g-margin-b-5--xs">Portfolio Item</h4>
-                        <p class="g-color--white-opacity"></p>
-                    </div>
-                    <ul class="list-inline g-ul-li-lr-5--xs g-margin-b-0--xs">
-                        <li>
-                            <a href="img/970x647/08.jpg" class="cbp-lightbox s-icon s-icon--sm s-icon--white-bg g-radius--circle" data-title="Portfolio Item <br/> by KeenThemes Inc.">
-                                    <i class="ti-fullscreen"></i>
-                                </a>
-                        </li>
-                        <li>
-                            <a href="https://themeforest.net/item/metronic-responsive-admin-dashboard-template/4021469?ref=keenthemes" class="s-icon s-icon--sm s-icon s-icon--white-bg g-radius--circle">
-                                    <i class="ti-link"></i>
-                                </a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            <!-- Item -->
-            <div class="s-portfolio__item cbp-item logos graphic">
-                <div class="s-portfolio__img-effect">
-                    <img src="img/970x647/09.jpg" alt="Portfolio Image">
-                </div>
-                <div class="s-portfolio__caption-hover--cc">
-                    <div class="g-margin-b-25--xs">
-                        <h4 class="g-font-size-18--xs g-color--white g-margin-b-5--xs">Portfolio Item</h4>
-                        <p class="g-color--white-opacity"></p>
-                    </div>
-                    <ul class="list-inline g-ul-li-lr-5--xs g-margin-b-0--xs">
-                        <li>
-                            <a href="img/970x647/09.jpg" class="cbp-lightbox s-icon s-icon--sm s-icon--white-bg g-radius--circle" data-title="Portfolio Item <br/> by KeenThemes Inc.">
-                                    <i class="ti-fullscreen"></i>
-                                </a>
-                        </li>
-                        <li>
-                            <a href="https://themeforest.net/item/metronic-responsive-admin-dashboard-template/4021469?ref=keenthemes" class="s-icon s-icon--sm s-icon s-icon--white-bg g-radius--circle">
-                                    <i class="ti-link"></i>
-                                </a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            <!-- Item -->
-            <div class="s-portfolio__item cbp-item motion graphic">
-                <div class="s-portfolio__img-effect">
-                    <img src="img/970x647/04.jpg" alt="Portfolio Image">
-                </div>
-                <div class="s-portfolio__caption-hover--cc">
-                    <div class="g-margin-b-25--xs">
-                        <h4 class="g-font-size-18--xs g-color--white g-margin-b-5--xs">Portfolio Item</h4>
-                        <p class="g-color--white-opacity"></p>
-                    </div>
-                    <ul class="list-inline g-ul-li-lr-5--xs g-margin-b-0--xs">
-                        <li>
-                            <a href="img/970x647/04.jpg" class="cbp-lightbox s-icon s-icon--sm s-icon--white-bg g-radius--circle" data-title="Portfolio Item <br/> by KeenThemes Inc.">
-                                    <i class="ti-fullscreen"></i>
-                                </a>
-                        </li>
-                        <li>
-                            <a href="https://themeforest.net/item/metronic-responsive-admin-dashboard-template/4021469?ref=keenthemes" class="s-icon s-icon--sm s-icon s-icon--white-bg g-radius--circle">
-                                    <i class="ti-link"></i>
-                                </a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            <!-- End Item -->
-        </div>
-        <!-- End Portfolio Gallery -->
-    </div>
+
     <!-- End Portfolio -->
 
     <!-- Testimonials -->
     <div class="js__parallax-window" style="background: url(img/1920x1080/04.jpg) 50% 0 no-repeat fixed;">
         <div class="container g-text-center--xs g-padding-y-80--xs g-padding-y-125--sm">
-            <p class="text-uppercase g-font-size-14--xs g-font-weight--700 g-color--white-opacity g-letter-spacing--2 g-margin-b-50--xs">Use Case</p>
+            <p class="text-uppercase g-font-size-14--xs g-font-weight--700 g-color--white-opacity g-letter-spacing--2 g-margin-b-50--xs">特點</p>
             <div class="s-swiper js__swiper-testimonials">
                 <!-- Swiper Wrapper -->
                 <div class="swiper-wrapper g-margin-b-50--xs">
@@ -481,7 +373,7 @@
                     <div class="swiper-slide g-padding-x-130--sm g-padding-x-150--lg">
                         <div class="g-padding-x-20--xs g-padding-x-50--lg">
                             <div class="g-margin-b-40--xs">
-                                <p class="g-font-size-22--xs g-font-size-28--sm g-color--white"><i>P2P檔案傳輸</i></p>
+                                <p class="g-font-size-22--xs g-font-size-28--sm g-color--white"><i>P2P檔案使用AES-256加密壓縮傳輸</i></p>
                             </div>
                             <div class="center-block g-hor-divider__solid--white-opacity-lightest g-width-100--xs g-margin-b-30--xs"></div>
                             <h4 class="g-font-size-15--xs g-font-size-18--sm g-color--white-opacity-light g-margin-b-5--xs"></h4>
@@ -539,14 +431,13 @@
     <!-- End Clients -->
 
     <!-- News -->
-    <div class="container g-padding-y-80--xs g-padding-y-125--sm">
+    <!-- <div class="container g-padding-y-80--xs g-padding-y-125--sm">
         <div class="g-text-center--xs g-margin-b-80--xs">
             <p class="text-uppercase g-font-size-14--xs g-font-weight--700 g-color--primary g-letter-spacing--2 g-margin-b-25--xs">Blog</p>
             <h2 class="g-font-size-32--xs g-font-size-36--md">Latest News</h2>
         </div>
         <div class="row">
             <div class="col-sm-4 g-margin-b-30--xs g-margin-b-0--md">
-                <!-- News -->
                 <article>
                     <img class="img-responsive" src="img/970x970/01.jpg" alt="Image">
                     <div class="g-bg-color--white g-box-shadow__dark-lightest-v2 g-text-center--xs g-padding-x-40--xs g-padding-y-40--xs">
@@ -555,10 +446,8 @@
                         <p>The time has come to bring those ideas and plans to life.</p>
                     </div>
                 </article>
-                <!-- End News -->
             </div>
             <div class="col-sm-4 g-margin-b-30--xs g-margin-b-0--md">
-                <!-- News -->
                 <article>
                     <img class="img-responsive" src="img/970x970/02.jpg" alt="Image">
                     <div class="g-bg-color--white g-box-shadow__dark-lightest-v2 g-text-center--xs g-padding-x-40--xs g-padding-y-40--xs">
@@ -567,10 +456,8 @@
                         <p>The time has come to bring those ideas and plans to life.</p>
                     </div>
                 </article>
-                <!-- End News -->
             </div>
             <div class="col-sm-4">
-                <!-- News -->
                 <article>
                     <img class="img-responsive" src="img/970x970/03.jpg" alt="Image">
                     <div class="g-bg-color--white g-box-shadow__dark-lightest-v2 g-text-center--xs g-padding-x-40--xs g-padding-y-40--xs">
@@ -579,13 +466,13 @@
                         <p>The time has come to bring those ideas and plans to life.</p>
                     </div>
                 </article>
-                <!-- End News -->
             </div>
         </div>
-    </div>
+    </div> -->
     <!-- End News -->
 
     <!-- Counter -->
+    
     <div class="js__parallax-window" style="background: url(img/1920x1080/06.jpg) 50% 0 no-repeat fixed;">
         <div class="container g-padding-y-80--xs g-padding-y-125--sm">
             <div class="row">
@@ -613,6 +500,7 @@
                         <h4 class="g-font-size-18--xs g-color--white">countrys</h4>
                     </div>
                 </div>
+                
                 <div class="col-md-3 col-xs-6 g-full-width--xs">
                     <div class="g-text-center--xs">
                         <div class="g-margin-b-10--xs">
@@ -632,10 +520,10 @@
     <div class="g-bg-color--sky-light">
         <div class="container g-padding-y-80--xs g-padding-y-125--sm">
             <div class="g-text-center--xs g-margin-b-80--xs">
-                <p class="text-uppercase g-font-size-14--xs g-font-weight--700 g-color--primary g-letter-spacing--2 g-margin-b-25--xs">Feedback</p>
-                <h2 class="g-font-size-32--xs g-font-size-36--md">Send us a note</h2>
+                <p class="text-uppercase g-font-size-14--xs g-font-weight--700 g-color--primary g-letter-spacing--2 g-margin-b-25--xs">想知道你是否適合使用區塊鏈技術嗎？
+                    我們提供免費的技術健檢服務</p>
+                <h2 class="g-font-size-32--xs g-font-size-36--md">現在聯繫我們</h2>
             </div>
-            <form>
                 <div class="row g-margin-b-40--xs">
                     <div class="col-sm-6 g-margin-b-20--xs g-margin-b-0--md">
                         <div class="g-margin-b-20--xs">
@@ -644,6 +532,9 @@
                         <div class="g-margin-b-20--xs">
                             <input type="email" class="form-control s-form-v2__input g-radius--50" placeholder="* Email">
                         </div>
+                        <div class="g-margin-b-20--xs">
+                            <input type="email" class="form-control s-form-v2__input g-radius--50" placeholder="* Company">
+                        </div>
                         <input type="text" class="form-control s-form-v2__input g-radius--50" placeholder="* Phone">
                     </div>
                     <div class="col-sm-6">
@@ -651,9 +542,8 @@
                     </div>
                 </div>
                 <div class="g-text-center--xs">
-                    <button type="submit" class="text-uppercase s-btn s-btn--md s-btn--primary-bg g-radius--50 g-padding-x-80--xs">Submit</button>
+                    <button onclick="submitForm()" class="text-uppercase s-btn s-btn--md s-btn--primary-bg g-radius--50 g-padding-x-80--xs">Submit</button>
                 </div>
-            </form>
         </div>
     </div>
     <!-- End Feedback Form -->
@@ -691,7 +581,8 @@
                     </div>
                     <div class="col-md-4 col-md-offset-2 col-sm-5 col-sm-offset-1 s-footer__logo g-padding-y-50--xs g-padding-y-0--md">
                         <h3 class="g-font-size-18--xs g-color--white">Distributed Blockchain System Team</h3>
-                        <p class="g-color--white-opacity">We are a team providing blockchain related solution</p>
+                        <p class="g-color--white-opacity">info@xblockchain.co ｜ 4F., No.101, Sec. 3, Nanjing E. Rd., Songshan Dist., Taipei City 105, Taiwan (R.O.C.)
+                            </p>
                     </div>
                 </div>
             </div>
@@ -703,8 +594,9 @@
             <div class="row">
                 <div class="col-xs-6">
                     <a href="index.html">
-                            Distributed Blockchain System Team
+                            Distributed Blockchain System Team 
                         </a>
+                        <p> info@xblockchain.co </p>
                 </div>
             </div>
         </div>
@@ -747,5 +639,17 @@
 
 </body>
 <!-- End Body -->
+
+
+
+<script>
+        function submitForm () {
+            // TODO 
+        }
+    
+        function submitScbscribe() {
+            // TODO
+        }
+        </script>
 
 </html>
